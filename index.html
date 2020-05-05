@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>LOTR Name Generator</title>
+</head>
+
+<body>
+  <!-- START HERE -->
+
+  <section id="header" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-white">
+          <h1 class="display-3">Lord Of The Rings Name Generator</h1>  
+          <p class="lead">Enter your first and second name and it will generate a random funny name based off lord of the rings characters!</p>        
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="input" class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-6">
+        <input class="form-control firstName" placeholder="Enter First Name" type="text" name="firstname">        
+      </div>
+      <div class="col-6">
+        <input class="form-control secondName" placeholder="Enter Surname" type="text" name="firstname">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col text-center">
+        <button class="btn btn-block btn-lg btn-success add-btn">Click To Generate</button>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="col text-center">
+        <button class="btn btn-block btn-lg btn-danger btn-clear">Click To Reset</button>
+      </div>
+    </div>
+  </div>  
+</section>
+
+
+<section>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3 class="outputName display-3"></h3>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+  <!--<script type="text/javascript" src="js/script.js" ></script>-->
+  <script type="text/javascript" src="js/script1.js" ></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>

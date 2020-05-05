@@ -1,0 +1,13 @@
+body	{
+	background: linear-gradient(to right, rgb(10, 33, 245), rgb(96, 191, 64));
+}
+
+.lead	{
+	font-size: 25px;
+}
+
+.outputName {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
